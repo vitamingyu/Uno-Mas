@@ -26,15 +26,9 @@ import com.april.unomas.domain.ProdInquiryVO;
 import com.april.unomas.domain.QnaVO;
 import com.april.unomas.domain.UserCriteria;
 import com.april.unomas.domain.UserPageMaker;
-
-import com.april.unomas.domain.BoardReviewVO;
-import com.april.unomas.domain.UserCriteria;
-import com.april.unomas.domain.UserPageMaker;
-
 import com.april.unomas.domain.UserVO;
 import com.april.unomas.service.CartService;
 import com.april.unomas.service.OrderService;
-import com.april.unomas.service.SmsService;
 import com.april.unomas.service.UserService;
 
 @Controller
@@ -49,9 +43,6 @@ public class UserController {
 	
 	@Inject
 	private CartService cartService;
-	
-	@Inject
-	private SmsService smsService;
 	
 	private static final Logger log = LoggerFactory.getLogger(UserController.class);
 
